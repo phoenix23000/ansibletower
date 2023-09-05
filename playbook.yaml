@@ -3,5 +3,5 @@
   tasks: 
     - name: "Install apache2" 
       package: 
-        name=TEMPL 
+        name=apache2 
         state=present
