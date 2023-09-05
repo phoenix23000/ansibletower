@@ -6,6 +6,6 @@
   gather_facts: true 
   tasks: 
     - name: "Install apache2" 
-    package: 
-      name=apache2 
-      state=present
+      package: 
+        name=apache2 
+        state=present
