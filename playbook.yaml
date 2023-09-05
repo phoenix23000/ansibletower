@@ -1,5 +1,9 @@
 - name: install apache2 
-  hosts: all
+  remote_user: azureuser
+  hosts: 4.180.28.82
+  become: true 
+  become_user: root 
+  gather_facts: true 
   tasks: 
     - name: "Install apache2" 
       package: 
